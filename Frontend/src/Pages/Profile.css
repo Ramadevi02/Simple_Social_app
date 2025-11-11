@@ -1,0 +1,74 @@
+.profile-container {
+  max-width: 700px;
+  margin: 30px auto;
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #f9fafb;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+.user-name {
+    font-size: larger;
+}
+.profile-header {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 15px; 
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.profile-pic-wrapper{
+  position: relative;
+  width: 70px;
+  height: 70px;
+  display: inline-block;
+}
+.upload-btn {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(25%, 25%);
+  background-color:white;
+  color: green;
+  border: none;
+  border-radius: 50%;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 0 10px rgba(46, 44, 44, 0.3);
+}
+.upload-btn:hover {
+  background-color: rgb(206, 200, 190);
+  color: rgb(18, 70, 18);
+}
+.upload-message {
+  color: green;
+  margin-top: 5px;
+}
+.posts-section {
+  margin-top: 30px;
+}
+.post-section .post-card {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  /* padding: 15px; */
+  margin-bottom: 15px;
+  box-shadow: 0 1px 4px rgba(0,0,0,0.05);
+}
+.post-content {
+  font-size: 16px;
+  margin-bottom: 10px;
+  padding: 1rem;
+}
+.posts-list {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;;
+}
+.post-meta {
+  font-size: 14px;
+  color: #777;
+  display: flex;
+  gap: 10px;
+}
+

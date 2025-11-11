@@ -1,0 +1,53 @@
+/* public post top */
+.publicpost-top {
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+.creatpost-btn {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    height: 60px;
+    font-size: 25px;
+    z-index: 1000;
+    border: 1px solid #d5c9c9;
+}
+.like-btn {
+    color: gray
+}
+.like-btn:hover{
+    border-color: transparent;
+    transform: scale(1.2);
+}
+.post-card {
+    box-shadow: 2px 2px 8px rgb(140 129 129 / 60%) !important;
+}
+.card {
+    padding: 0 !important;
+}
+.card-body {
+    padding: 0 !important;
+    border: 1px solid #e2d6d6;
+}
+/* .card-body div {
+    padding: 1rem;
+} */
+.card-header {
+    background-color: #eaf1ee;
+    border: none !important;
+}
+.card-footer {
+    background-color: #eaf1ee;
+    border: none !important;
+    font-family: 'Brush Script MT', cursive;
+}
+.card-text {
+    line-height: 1.6;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 1rem;
+}
+.post-username {
+    font-family: 'Brush Script MT', cursive !important;
+}
+
