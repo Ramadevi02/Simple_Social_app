@@ -1,4 +1,4 @@
-# 🌐 Social App
+#  Social App
 
 A full-stack social media web application where users can create an account, log in, create posts, and like posts from other users.  
 Built with **React (Vite + Bootstrap)** for the frontend, **Spring Boot** for the backend REST APIs, and **MySQL** for data storage.
@@ -16,4 +16,4 @@ Built with **React (Vite + Bootstrap)** for the frontend, **Spring Boot** for th
 - **Backend:** Spring Boot, Java  
 - **Database:** MySQL  
 
-## screen shot of my app
+## Screen shot of my app working
