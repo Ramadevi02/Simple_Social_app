@@ -55,21 +55,6 @@ public class AuthController {
 			return ResponseEntity.status(401).body("Invalid username or password");
 		}
 	}
-//	public String login(@RequestParam String username, @RequestParam String password) {
-//		Optional<User> user = userService.login(username, password);
-//		if (user.isPresent()) {
-//			return "Login successful for user: " + username;
-//		} else {
-//			return "Invalid username or password";
-//		}
-//	}
-	
-		//change password
-//	@PostMapping("/changePassword") 
-//	public String changePassword(@RequestParam String username, @RequestParam String newPassword) {
-//		return userService.changePassword(username, newPassword);
-//	}
-	
 		//change password
 	@PostMapping("/changePasswordJson")
 	public ResponseEntity<?> changePassword(@RequestBody Map<String, String> payload) {
@@ -112,3 +97,4 @@ public class AuthController {
 		return ResponseEntity.ok("Account deleted successfully");
 	}
 }
+
