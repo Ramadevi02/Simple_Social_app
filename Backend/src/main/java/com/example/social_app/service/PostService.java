@@ -97,9 +97,5 @@ public class PostService {
 							liked);
 				}).toList();
 	}
-	
-		// delete post
-//	public List<PostResponse> deletePost(long id) {
-//		
-//	}
 }
+
