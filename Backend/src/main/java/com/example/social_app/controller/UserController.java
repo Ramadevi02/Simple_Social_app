@@ -27,15 +27,6 @@ public class UserController {
 		return ResponseEntity.ok(message);
 	}
 	
-//	@PostMapping("/updateProfilePicture")
-//	public ResponseEntity<?> updateProfilePicture(@RequestBody Map<String, String> request) {
-//		String username = request.get("username");
-//		String profilePictureUrl = request.get("profilePicture");
-//		
-//		String message = userService.updateProfilePicture(username, profilePictureUrl);
-//		return ResponseEntity.ok(message);
-//	}
-	
 	@PostMapping("/updateProfilePicture") 
 		public ResponseEntity<?> updateProfilePicture(@RequestBody Map<String, String> request,
 				Principal principle) {
@@ -46,3 +37,4 @@ public class UserController {
 			return ResponseEntity.ok(Map.of("message",message, "profilePictureUrl", profilePictureUrl));
 	}
 }
+
